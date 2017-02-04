@@ -18,6 +18,11 @@
         <%= link_to 'FLIXTER', root_path, class: 'navbar-brand' %>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <u1 class="navbar-nav mr-auto mt-2 mt-md-0">
+            <li class="nav-item active">
+              <%= link_to 'See all Courses', courses_path, class: 'nav-link' %>
+            </li>
+          </u1>
           <ul class="navbar-nav ml-auto">
             
             <% if user_signed_in? %>
