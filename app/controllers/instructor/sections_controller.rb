@@ -24,7 +24,7 @@ class Instructor::SectionsController < ApplicationController
   end
 
   def section_params
-    params.require(:section).permit(:title, :row_order)
+    params.require(:section).permit(:title, :row_order_position)
   end
 
   helper_method :current_course
