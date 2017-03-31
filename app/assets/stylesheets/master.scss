@@ -2,7 +2,7 @@
 
 .navbar {
   border-radius: 0;
-  font-family: 'risqueregular';
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-weight: 200;
   box-shadow: 0px 2px 3px #2a2a2a;
   background: image_url('zwartevilt.png');
@@ -13,7 +13,7 @@
   font-family: 'risqueregular';
   font-weight: 100;
   font-size: 30px;
-  color: red;
+  color: #BF2B28;
 }
 
 .hero {
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 body {
-  background: image_url('bg.png');
+  background: image_url('triangular.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
@@ -100,13 +100,18 @@ body {
   background-color: black;
   margin-top: 10px;
   height: 130px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
 .lesson a {
   color: white;
-  font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
   font-size: 15px;
+}
+
+.lesson a:hover {
+  text-decoration: none;
+  color: #BF2B28;
 }
 
 .lesson a b {
@@ -143,10 +148,10 @@ ul .header .fa {
   background: black;
   color: white;
   margin: 10px;
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-weight: 100;
   padding: 8px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .lessons li b {
