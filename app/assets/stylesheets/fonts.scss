@@ -41,8 +41,8 @@
 
 @font-face {
     font-family: 'risqueregular';
-    src: url('risque-regular-webfont.woff2') format('woff2'),
-         url('risque-regular-webfont.woff') format('woff');
+    src: font_url('risque-regular-webfont.woff2') format('woff2'),
+         font_url('risque-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
